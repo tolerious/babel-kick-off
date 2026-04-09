@@ -4,22 +4,22 @@ layout: home
 
 hero:
   name: "从零开始学Babel"
-  text: "A VitePress Site"
+  text: "Step By Step"
   tagline: 一起见证神奇的“魔法”🪄
   actions:
     - theme: brand
       text: 快速开始
-      link: /markdown-examples
+      link: /docs/quick-start
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 资源汇总
+      link: /docs/learning-resource
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#features:
+#  - title: Feature A
+#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#  - title: Feature B
+#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#  - title: Feature C
+#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
