@@ -1,0 +1,100 @@
+/* 首页左右布局样式 */
+.VPHome .VPHero .container {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 4rem !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  max-width: 1200px !important;
+}
+
+.VPHome .VPHero .main {
+  flex: 1 !important;
+  max-width: 55% !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+/* Hero 图片样式 */
+.hero-image {
+  flex: 0 0 40% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 !important;
+  max-width: 400px !important;
+}
+
+.hero-image img {
+  max-width: 100% !important;
+  height: auto !important;
+  border-radius: 16px !important;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.hero-image img:hover {
+  transform: scale(1.05) translateY(-5px) !important;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* 响应式布局 - 小屏幕恢复垂直布局 */
+@media (max-width: 960px) {
+  .VPHome .VPHero .container {
+    flex-direction: column !important;
+    gap: 2rem !important;
+  }
+
+  .VPHome .VPHero .main {
+    max-width: 100% !important;
+  }
+
+  .hero-image {
+    flex: none !important;
+    width: 100% !important;
+    max-width: 350px !important;
+  }
+}
+
+/* 确保动作按钮在左侧保持正常显示 */
+.VPHome .VPHero .actions {
+  margin-top: 2rem !important;
+  display: flex !important;
+  gap: 1rem !important;
+  flex-wrap: wrap !important;
+}
+
+/* 标题和文本样式优化 */
+.VPHome .VPHero h1.name {
+  font-size: 3rem !important;
+  line-height: 1.2 !important;
+  margin-bottom: 1rem !important;
+}
+
+.VPHome .VPHero .text {
+  font-size: 1.5rem !important;
+  line-height: 1.6 !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.VPHome .VPHero .tagline {
+  font-size: 1.2rem !important;
+  opacity: 0.8 !important;
+  margin-bottom: 2rem !important;
+}
+
+/* 小屏幕优化 */
+@media (max-width: 640px) {
+  .VPHome .VPHero h1.name {
+    font-size: 2rem !important;
+  }
+
+  .VPHome .VPHero .text {
+    font-size: 1.25rem !important;
+  }
+
+  .VPHome .VPHero .tagline {
+    font-size: 1rem !important;
+  }
+}
+

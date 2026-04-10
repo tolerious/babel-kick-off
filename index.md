@@ -3,16 +3,17 @@
 layout: home
 
 hero:
-  name: "从零开始学Babel"
-  text: "Step By Step"
-  tagline: 一起见证神奇的“魔法”🪄
+  name: “从零开始学Babel”
+  text: “Step By Step”
+  tagline: 一起见证神奇的”魔法”🪄
+  image: /babel-logo.svg
   actions:
     - theme: brand
       text: 快速开始
-      link: /docs/quick-start
+      link: /quick-start
     - theme: alt
       text: 资源汇总
-      link: /docs/learning-resource
+      link: /learning-resource
 
 features:
   - title: 5分钟了解 Babel
