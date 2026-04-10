@@ -6,19 +6,19 @@ hero:
   name: “从零开始学Babel”
   text: “Step By Step”
   tagline: 一起见证神奇的”魔法”🪄
-  image: /babel-logo.svg
+  image: /babel-kick-off.jpg
   actions:
     - theme: brand
-      text: 快速开始
-      link: /quick-start
+      text: 从这开始
+      link: /docs/quick-start
     - theme: alt
       text: 资源汇总
-      link: /learning-resource
+      link: /docs/learning-resource
 
 features:
-  - title: 5分钟了解 Babel
-    details: 快速了解Babel的基本概念
-    link: /docs/babel-user-handbook  
+  - title: Babel简介
+    details: 5分钟快速了解Babel的基本概念
+    link: /docs/babel-introduction
   - title: Babel 用户手册
     details: 教你如何使用Babel
     link: /docs/babel-user-handbook
