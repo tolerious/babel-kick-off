@@ -14,11 +14,16 @@ hero:
       text: 资源汇总
       link: /docs/learning-resource
 
-#features:
-#  - title: Feature A
-#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#  - title: Feature B
-#    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features:
+  - title: 5分钟了解 Babel
+    details: 快速了解Babel的基本概念
+    link: /docs/babel-user-handbook  
+  - title: Babel 用户手册
+    details: 教你如何使用Babel
+    link: /docs/babel-user-handbook
+  - title: Babel 插件手册
+    details: 教你如何来写一个Babel插件
+    link: /docs/babel-plugin-handbook
 #  - title: Feature C
 #    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
