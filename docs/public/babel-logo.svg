@@ -1,0 +1,43 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" fill="#f5f5f5" rx="20"/>
+
+  <!-- Babel Logo Stylized -->
+  <defs>
+    <linearGradient id="babelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5da55;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4b830;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Magic Wand -->
+  <g transform="translate(200, 200)">
+    <!-- Wand body -->
+    <line x1="-10" y1="-60" x2="-10" y2="80" stroke="#8B4513" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- Wand tip -->
+    <circle cx="-10" cy="-60" r="12" fill="url(#babelGradient)"/>
+
+    <!-- Sparkles -->
+    <g fill="#FFD700">
+      <polygon points="20,-80 25,-90 30,-80 40,-85 30,-75 35,-65 25,-75 15,-65 20,-75 10,-85 20,-80" transform="scale(0.8)"/>
+      <polygon points="-40,-40 -35,-50 -30,-40 -20,-45 -30,-35 -25,-25 -35,-35 -45,-25 -40,-35 -50,-45 -40,-40" transform="scale(0.6)"/>
+      <polygon points="20,-20 25,-30 30,-20 40,-25 30,-15 35,-5 25,-15 15,-5 20,-15 10,-25 20,-20" transform="scale(0.5)"/>
+    </g>
+
+    <!-- Magic dust particles -->
+    <circle cx="30" cy="-70" r="3" fill="#FFD700" opacity="0.8"/>
+    <circle cx="-35" cy="-30" r="2" fill="#FFD700" opacity="0.6"/>
+    <circle cx="25" cy="-10" r="2.5" fill="#FFD700" opacity="0.7"/>
+    <circle cx="-30" cy="10" r="2" fill="#FFD700" opacity="0.5"/>
+    <circle cx="35" cy="-50" r="2" fill="#FFD700" opacity="0.6"/>
+  </g>
+
+  <!-- Babel Text -->
+  <text x="200" y="360" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#333">
+    Babel
+  </text>
+  <text x="200" y="385" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#666">
+    JavaScript Compiler
+  </text>
+</svg>
