@@ -30,11 +30,28 @@ jobs:
     - run: npm run build --if-present
 
     - name: Copy To ECS
-      uses: appleboy/scp-action@master
+      # uses: appleboy/scp-action@master
+      # with:
+      #   host: ${{ secrets.ECS_HOST }}
+      #   username: ${{ secrets.ECS_USERNAME }}
+      #   key: ${{ secrets.ECS_SSH_KEY }}
+      #   source: "dist/*" # 要复制的本地文件或目录
+      #   target: "/var/www/html" # 服务器上的目标路径
+      # You may pin to the exact commit or the version.
+      # uses: srueda99/scp-action@6061b4a0cc9cfcca8e352035b9d10de6ac6f75b9
+      uses: srueda99/scp-action@v13
       with:
+        # IP Address or DNS of your target host
         host: ${{ secrets.ECS_HOST }}
+        # Source route folder
+        #origin: # optional, default is ./*
+        # Destination route folder
+        destination: "/var/www/html"
+        # User for remote connection
         username: ${{ secrets.ECS_USERNAME }}
-        key: ${{ secrets.ECS_SSH_KEY }}
-        source: "dist/*" # 要复制的本地文件或目录
-        target: "/var/www/html" # 服务器上的目标路径
-    
+        # Password for the user
+        #password: # optional
+        # Private SSH key
+        key: ${{ secrets.ECS_SSH_KEY }}# optional
+
+          
