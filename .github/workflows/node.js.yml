@@ -50,8 +50,8 @@ jobs:
         # User for remote connection
         username: ${{ secrets.ECS_USERNAME }}
         # Password for the user
-        #password: # optional
+        password: ${{ secrets.ECS_PASSWORD }}
         # Private SSH key
-        key: ${{ secrets.ECS_SSH_KEY }}# optional
+        #key: ${{ secrets.ECS_SSH_KEY }}# optional
 
           
