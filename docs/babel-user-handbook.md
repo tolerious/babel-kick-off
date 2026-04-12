@@ -553,7 +553,7 @@ $ npm install --save-dev babel-plugin-transform-es2015-classes
 有关官方插件的完整列表,请参阅 [Babel 插件页面](http://babeljs.io/docs/plugins/)。
 
 还可以查看所有由[社区构建](https://www.npmjs.com/search?q=babel-plugin)
-的插件。如果您想了解如何编写自己的插件,请阅读 [Babel 插件手册](plugin-handbook.md)。
+的插件。如果您想了解如何编写自己的插件,请阅读 [Babel 插件手册](./babel-plugin-handbook.md)。
 
 ## <a id="toc-plugin-options"></a>插件选项
 

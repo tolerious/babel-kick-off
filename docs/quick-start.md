@@ -16,6 +16,6 @@
 在阅读过这两个文档后，我们就可以编写我们自己的Babel插件了，通过查看[Babel插件编写练习](/docs/write-babel-plugin-exercise.md)
 来进行实践吧。
 
-那么在实际的工作中，我们还可以利用Babel做些什么呢？请查看[Babel的应用](/docs/babel-in-practise.md)
+那么在实际的工作中，我们还可以利用Babel做些什么呢？请查看[Babel的应用](./babel-in-practise.md)
 
 ![logo](/quick-start-logo.jpeg)
