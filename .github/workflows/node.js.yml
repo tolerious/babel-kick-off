@@ -62,7 +62,7 @@ jobs:
         # ssh private key (~/.ssh/id_rsa)
         key: ${{ secrets.ECS_SSH_KEY }}
         # source files path
-        source: "./dist"
+        source: "./.vitepress/dist"
         # destination path
         target: "/var/www/html"
           
