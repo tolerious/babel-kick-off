@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18.x, 20.x, 22.x]
+        node-version: [22.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -45,7 +45,7 @@ jobs:
         # SSH private key
         key: ${{ secrets.ECS_SSH_KEY }}
         # Remote directory to copy the file
-        #remote_dir: # optional, default is ~
+        remote_dir: /var/www/html/
         # Recursively copy entire source directories. Valid values: true and false (specified as strings)
         recursive: true
           
