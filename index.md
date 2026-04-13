@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: “从零开始学Babel”
-  text: “Step By Step”
+  name: 从零开始学Babel
+  text: Step By Step
   tagline: 一起见证神奇的”魔法”🪄
   image: /babel-kick-off.jpg
   actions:
