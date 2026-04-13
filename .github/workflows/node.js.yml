@@ -43,7 +43,7 @@ jobs:
         # ssh private key (~/.ssh/id_rsa)
         key: ${{ secrets.ECS_SSH_KEY }}
         # source files path
-        source: "./.vitepress/dist"
+        source: "./babel-kick-off"
         # destination path
         target: "/var/www/html"
           

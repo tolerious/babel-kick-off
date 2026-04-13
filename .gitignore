@@ -4,6 +4,7 @@ node_modules/
 # VitePress
 .vitepress/cache/
 .vitepress/dist/
+babel-kick-off/
 
 # Editor
 .idea/
