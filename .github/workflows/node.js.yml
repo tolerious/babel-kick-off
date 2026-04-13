@@ -29,25 +29,6 @@ jobs:
     - run: npm ci
     - run: npm run docs:build
 
-    - name: Copy To ECS
-      # You may pin to the exact commit or the version.
-      # uses: betanzos/scp-upload@6681a6d4596e23b96314c6c4ae2c154d4c4d346c
-      uses: betanzos/scp-upload@v1
-      with:
-        # Source local file path
-        source: "./dist"
-        # Remote host
-        host: ${{ secrets.ECS_HOST }}
-        # Remote host SSH port
-        #port: # optional, default is 22
-        # Remote host username
-        username: ${{ secrets.ECS_USERNAME }}
-        # SSH private key
-        key: ${{ secrets.ECS_SSH_KEY }}
-        # Remote directory to copy the file
-        remote_dir: /var/www/html/
-        # Recursively copy entire source directories. Valid values: true and false (specified as strings)
-        recursive: true
     - name: SCP Uploader
       # You may pin to the exact commit or the version.
       # uses: moonpathbg/scp_uploader@aa0000920bb0f95c95de531e49ca4a70b05777ac
