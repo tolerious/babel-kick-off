@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Kick Off Babel",
   description: "",
+  outDir:'babel-kick-off',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
