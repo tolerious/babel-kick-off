@@ -48,6 +48,24 @@ jobs:
         remote_dir: /var/www/html/
         # Recursively copy entire source directories. Valid values: true and false (specified as strings)
         recursive: true
+    - name: SCP Uploader
+      # You may pin to the exact commit or the version.
+      # uses: moonpathbg/scp_uploader@aa0000920bb0f95c95de531e49ca4a70b05777ac
+      uses: moonpathbg/scp_uploader@latest
+      with:
+        # remote host
+        host: ${{ secrets.ECS_HOST }}
+        # remote user
+        username: ${{ secrets.ECS_USERNAME }}
+        # remote port
+        #port: # optional, default is 22
+        # ssh private key (~/.ssh/id_rsa)
+        key: ${{ secrets.ECS_SSH_KEY }}
+        # source files path
+        source: "./dist"
+        # destination path
+        target: "/var/www/html"
+          
           
 
           
