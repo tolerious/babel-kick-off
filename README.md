@@ -1,4 +1,4 @@
-# Babel Kick Off
+# Babel Kick Off [![Node.js CI](https://github.com/tolerious/babel-kick-off/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/tolerious/babel-kick-off/actions/workflows/node.js.yml)
 
 这个项目是一个从零开始学习，并使用Babel的系列教程。
 
