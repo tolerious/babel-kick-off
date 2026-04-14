@@ -5,6 +5,9 @@ export default defineConfig({
     title: "Kick Off Babel",
     description: "",
     outDir: 'babel-kick-off',
+    head: [
+        ['link', {rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml'}]
+    ],
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
