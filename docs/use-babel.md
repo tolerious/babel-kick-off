@@ -27,7 +27,9 @@ mkdir your-project-dir
 degit tolerious/simple-babel-template
 ```
 
-别忘记先创建一个空的目录，然后在该目录中运行这条命令,执行结束后运行
+::: warning 注意
+别忘记先创建一个空的目录，然后在该目录中运行上述`degit`命令,执行结束后，在进入文件夹运行如下命令：
+:::
 
 ```
 pnpm i
@@ -193,7 +195,9 @@ Babel在仓库中维护了一个类似数据库的内容。
   }
 }
 ```
+
 我们可以看到，在chrome47以后，箭头函数就不会被编译成普通函数了，我们可以通过修改Babel配置文件，来验证。
+
 ```
 {
   "presets": [
@@ -211,7 +215,9 @@ Babel在仓库中维护了一个类似数据库的内容。
   ]
 }
 ```
+
 通过验证，我们可以发现，这次Babel没有对箭头函数进行编译了。
+
 ```javascript{7-9}
 "use strict";
 
@@ -223,3 +229,5 @@ var greeting = name => {
 return `Welcome to Babel, ${name}!`;
 };
 ```
+
+所以当我们遇到这些类似为什么Babel要这样去转换的问题时，都可以用类似的方法去分析，进而找到答案。
