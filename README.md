@@ -4,6 +4,6 @@
 
 文本内容请访问[Babel Kick Off](https://babel.frontend.fan)。
 
-视频内容同步更新在[B站前端范儿](https://space.bilibili.com/67748102)。
+视频内容同步更新在B站[前端范儿](https://space.bilibili.com/67748102)。
 
 ![Alt](./public/babel-kick-off.jpg)
